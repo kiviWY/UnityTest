@@ -1,0 +1,15 @@
+/Users/wangyue/UnityTest/AsyncTest/bin/Debug/net9.0/AsyncTest
+/Users/wangyue/UnityTest/AsyncTest/bin/Debug/net9.0/AsyncTest.deps.json
+/Users/wangyue/UnityTest/AsyncTest/bin/Debug/net9.0/AsyncTest.runtimeconfig.json
+/Users/wangyue/UnityTest/AsyncTest/bin/Debug/net9.0/AsyncTest.dll
+/Users/wangyue/UnityTest/AsyncTest/bin/Debug/net9.0/AsyncTest.pdb
+/Users/wangyue/UnityTest/AsyncTest/obj/Debug/net9.0/AsyncTest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wangyue/UnityTest/AsyncTest/obj/Debug/net9.0/AsyncTest.AssemblyInfoInputs.cache
+/Users/wangyue/UnityTest/AsyncTest/obj/Debug/net9.0/AsyncTest.AssemblyInfo.cs
+/Users/wangyue/UnityTest/AsyncTest/obj/Debug/net9.0/AsyncTest.csproj.CoreCompileInputs.cache
+/Users/wangyue/UnityTest/AsyncTest/obj/Debug/net9.0/AsyncTest.sourcelink.json
+/Users/wangyue/UnityTest/AsyncTest/obj/Debug/net9.0/AsyncTest.dll
+/Users/wangyue/UnityTest/AsyncTest/obj/Debug/net9.0/refint/AsyncTest.dll
+/Users/wangyue/UnityTest/AsyncTest/obj/Debug/net9.0/AsyncTest.pdb
+/Users/wangyue/UnityTest/AsyncTest/obj/Debug/net9.0/AsyncTest.genruntimeconfig.cache
+/Users/wangyue/UnityTest/AsyncTest/obj/Debug/net9.0/ref/AsyncTest.dll

@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.summid.stask": {
+      "version": "https://github.com/Summid/STask.git?path=STask/Assets/Plugins/STask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "76134e78c51b4d4093d7c8b912ad17f13d31f79e"
+    },
     "com.unity.burst": {
       "version": "1.8.4",
       "depth": 1,
