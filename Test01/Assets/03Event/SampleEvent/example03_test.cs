@@ -8,28 +8,25 @@ public class example03_test : MonoBehaviour
 {
     private void Awake()
     {
-        EventManager.Instance.RegisterEvent("test03",TestEvent);
+        EventManager.Instance.RegisterEvent<int>("test03", TestEvent);
     }
 
     private void OnEnable()
     {
-        EventManager.Instance.SendEvent("test03",1);
+        EventManager.Instance.SendEvent("test03", 1);
         StartCoroutine(TestEventUnRegister());
     }
 
     private IEnumerator TestEventUnRegister()
     {
         yield return new WaitForSeconds(3f);
-        EventManager.Instance.UnRegisterEvent("test03",TestEvent);
-        EventManager.Instance.SendEvent("test03",2);
+        EventManager.Instance.UnRegisterEvent<int>("test03", TestEvent);
+        EventManager.Instance.SendEvent("test03", 2);
     }
 
 
-    private void TestEvent(object param = null)
+    private void TestEvent(int parm)
     {
-        if (param != null)
-        {
-            Debug.Log(param);
-        }
+        Debug.Log(parm);
     }
 }
