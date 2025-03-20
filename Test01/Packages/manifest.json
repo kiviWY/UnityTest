@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.code-philosophy.luban": "https://github.com/focus-creative-games/luban_unity.git",
     "com.summid.stask": "https://github.com/Summid/STask.git?path=STask/Assets/Plugins/STask",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "2.0.5",

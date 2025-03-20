@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.code-philosophy.luban": {
+      "version": "https://github.com/focus-creative-games/luban_unity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "57e577126c4bac9abef927babb848a457ad5d563"
+    },
     "com.summid.stask": {
       "version": "https://github.com/Summid/STask.git?path=STask/Assets/Plugins/STask",
       "depth": 0,
