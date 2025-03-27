@@ -37,6 +37,8 @@ MonoBehaviour:
     - PPv2URPConverters
     - STask
     - STask.Editor
+    - YooAsset
+    - YooAsset.Editor
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1

@@ -16,11 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 112b56b8bab2145438ed5b94699bdb5f
-  m_SerializeEntries:
-  - m_GUID: 06699f2bbf2624239a13a440d7879a58
-    m_Address: Assets/07Address/RemoteImg
-    m_ReadOnly: 0
-    m_SerializedLabels: []
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: e5d4f6e9cc5e349b9af05a6537774247, type: 2}
   m_SchemaSet:
