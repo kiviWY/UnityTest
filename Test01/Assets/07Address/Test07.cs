@@ -18,6 +18,8 @@ public class Test07 : MonoBehaviour
     [SerializeField] private Button mBtn2;
     [SerializeField] private Button mBtn3;
 
+    [SerializeField] private Text mTxt;
+
 
     private void Awake()
     {
@@ -29,35 +31,29 @@ public class Test07 : MonoBehaviour
 
     private void Btn1Click()
     {
-       
+       Addressables.LoadAssetAsync<Sprite>(imgAssets[0]).Completed += (op) =>
+       {
+           mImg1.sprite = op.Result;
+       };
     }
 
     private void Btn2Click()
     {
-       
+        Addressables.LoadAssetAsync<Sprite>(imgAssets[1]).Completed += (op) =>
+        {
+            mImg2.sprite = op.Result;
+        };
     }
 
     private void Btn3Click()
     {
-        
-    }
-
-
-
-    IEnumerator DownloadSprite(int index)
-    {
-        var handle = Addressables.DownloadDependenciesAsync(imgAssets[index]);
-        handle.Completed+=ImgDownloadComplete;
-        while (!handle.IsDone)
+        Addressables.LoadAssetAsync<Sprite>(imgAssets[2]).Completed += (op) =>
         {
-            var status = handle.GetDownloadStatus();
-            float progress = status.Percent;
-            yield return null;
-        }
+            mImg3.sprite = op.Result;
+        };
     }
 
-    private void ImgDownloadComplete(AsyncOperationHandle handle)
-    {
-        
-    }
+
+
+   
 }
